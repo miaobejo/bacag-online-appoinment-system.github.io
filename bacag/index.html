@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bacag Online Appointment System</title>
+    <link
+      rel="icon"
+      href="logo.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <section>
+        <div class="container">
+            <nav>
+                <img src="logo.png" alt="logo" class="logo">
+                <h3>REPUBLIC OF THE PHILIPPINES <br> Barangay Bacag <br> City of Villasis</h3>
+                <ul>
+                    <li><a href="" class="active">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Streets</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="article">
+                <h1>Welcome <br> to <br>Barangay Bacag</h1>
+                <p>
+                    Bacag is a barangay in the municipality of Villasis, in the province of Pangasinan. Its population as determined by the 2020 Census was 6,093. <br>This represented 9.37% of the total population of Villasis.
+                </p>
+                <a href="" class="btn">Schedule an Appointment</a>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!--Main-->
+    <section>
+        <div class="sibdiv"> <br><br><br><br>
+            <h1>BARANGAY BACAG ONLINE APPOINTMENT</h1>
+            <h2 class="offer">Services</h2>
+            <h5>Here are our online appointment services offered</h5>
+            <br>
+            <ul>
+                <li>Certificate of Indigency</li>
+                <li>Barangay Clearance</li>
+            </ul>
+        </div>
+        <br><br>
+        <fieldset>
+            <legend>Scheduled an Appointment</legend>
+            <form class="box" action="example.php" method="post">
+                <div>
+                    <label for="name" class="title">Name:</label> 
+                    <input type="text" id="name" name="name">
+                </div> 
+                <div>
+                    <label for="contactNumber">Contact Number:</label>
+                    <input type="text" name="contactNumber">
+                </div>
+                <div>
+                    <label for="purpose">Appointment Purpose:</label>
+                    <select id="purpose" name="purpose" required>
+                        <option value="certificate">Certificate of Indigency</option>
+                        <option value="barangay">Barangay Clearance</option>
+                        <option value="others">Others</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="username">Date:</label>
+                    <input type="date" name="depart">
+                </div> 
+                <div>
+                    <input type="submit" value="Register" id="submit" /)
+                <div> 
+            </form>
+        </fieldset>
+        <div class="streets"> <br><br><br><br>
+            <h1 class="offer">Streets</h1>
+            <br>
+            <ul>
+                <li>Bacag North</li>
+                <li>Bacag East</li>
+                <li>Bacag West</li>
+                <li>Bacag Sur</li>
+            </ul>
+        </div>
+    <!--Footer-->
+    <footer>
+        <hr />
+        <p>
+          Copyright &copy; 2023 
+          <a href="#">
+            <img
+              class="icon"
+              src="logo.png"
+              alt="logo"
+            />
+          </a>
+          <a href="#">
+            <img
+              class="icon"
+              src="villasis.png"
+              alt="villasis"
+            />
+          </a>
+          <a href="#">
+            <img
+              class="icon"
+              src="sk.png"
+              alt="sk"
+            />
+          </a>
+        </p>
+      </footer>
+  
+  </body>
+</html>

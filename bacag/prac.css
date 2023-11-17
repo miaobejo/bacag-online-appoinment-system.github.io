@@ -1,0 +1,296 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation{
+    background-color: #bbe7f5;
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+}
+.logo{
+    width: 5%;
+    height: 5%;
+}
+
+.navtitle{
+    padding-left: 20px;
+}
+.navlinks{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.navigation li {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navigation li a{
+    text-decoration: none;
+    color: black;
+}
+.navlinks :hover{
+    color: red;
+}
+
+
+
+
+
+.motherdiv {
+    display: flex;
+    height: 400px;
+    align-items: center; 
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.motherdiv img {
+    margin-right: auto;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+}
+.stat-text{
+    font-size: 45px;
+    color: #132CD8;
+}
+.stat-text :hover{
+    color: #132CD8;
+}
+
+.button :hover{
+       color: #132CD8;
+}
+.clearance{
+    padding: 20px;
+     display: flex;
+    justify-content: center;
+     width: 300px;
+     height: 50px;
+     align-items: center;
+}
+.consultation{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+     width: 300px;
+     height: 50px;
+     align-items: center;
+}
+
+button{
+   display: flex;
+   justify-content: center;
+    width: 250px;
+    height: 40px;
+    align-items: center;
+}
+
+.image-container {
+    display: flex; /* Use flexbox to create a horizontal line of images */
+    justify-content: space-between; /* Distribute space evenly between the images */
+    align-items: center; /* Center images vertically */
+    margin: 20px; /* Add margin around the container */
+    color: black;
+}
+
+/* Style individual images */
+.image-container img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    margin: 10px; /* Add margin around each image */
+}
+.sibdiv {
+    background-color: #CDDAF4 ;
+    color: black;
+    
+}
+.initial {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.initial :hover{
+    color: red;
+}
+.data{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.data :hover{
+    color: red;
+}
+.analysis{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.analysis :hover{
+    color: red;
+}
+.offer {
+    padding-left: 5%;
+    font-size: 350%;
+    display: flex;
+    
+}
+
+.image-container2{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin: 50px; 
+    padding-left: 20%;
+    padding-right: 20%;
+    text-decoration: none;
+}
+.conduct{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.conduct :hover{
+    color: red;
+}
+.checking{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.checking :hover{
+    color: red;
+}
+
+.diagram{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.diagram img{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.members{
+    background-color: #CFE4EB;
+   
+}
+
+.members img {
+    width: 70px;
+    height: 70px;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+}
+.names{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.meet{
+    margin-left: 5%;
+}
+.name1{
+    padding-left: 60%;
+    padding-right: 25%;
+    display: flex;
+    align-items: center;
+}
+.name2{
+    padding-left: 60%;
+    padding-right: 25%;
+    display: flex;
+    align-items: center;
+}
+.name3{
+    padding-left: 60%;
+    padding-right: 25%;
+    display: flex;
+    align-items: center;
+}
+.name4{
+    padding-left: 60%;
+    padding-right: 25%;
+    display: flex;
+    align-items: center;
+}
+
+
+.cscs{
+    color: #1A2676;
+    display: flex;
+    align-items: center;  
+}
+.center{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+    justify-content: center;
+    align-items: center; 
+}
+.img-icon{
+    padding-left: 40%;
+}
+.rationale{
+    background-color: white;
+    color: #1A2676;
+   
+}
+.p1{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.p2{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.contact img{
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    background-color: #5F5E60;
+    color: #D9D9D9;
+}
+.psu{
+    padding-left: 80%;
+}
+
+@keyframes scale {
+    0%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+.tag-pic:hover{ animation : scale 3s ease infinite}
+.s1:hover{ animation : scale 3s ease infinite}
+.s2:hover{ animation : scale 3s ease infinite}
+.s3:hover{ animation : scale 3s ease infinite}
+.s4:hover{ animation : scale 3s ease infinite}
+.s5:hover{ animation : scale 3s ease infinite}
+.pic1:hover{ animation : scale 3s ease infinite}
+.pic2:hover{ animation : scale 3s ease infinite}
+.pic3:hover{ animation : scale 3s ease infinite}
+.pic4:hover{ animation : scale 3s ease infinite}
+.call:hover{ animation : scale 3s ease infinite}
+.email:hover{ animation : scale 3s ease infinite}
+.linkedin:hover{ animation : scale 3s ease infinite}
